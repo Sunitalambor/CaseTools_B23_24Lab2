@@ -1,0 +1,43 @@
+class complex{
+    int num1;
+    int num2;
+    void getdata(int num1,int num2)
+    {
+        this.num1=x;
+        this.num2=y;
+    }
+    void sum()
+    {
+        int sum;
+        this.sum=this.num1+this.num2;
+        System.out.println("the sum of two numbers="+this.sum);
+    }
+    void difference()
+    {
+        int diff;
+        this.diff=this.num-this.num2;
+        System.out.println("the difference of two numbers="+this.diff);
+
+    }
+    void product()
+    {
+        int pro;
+        this.pro=this.num1*this.num2;
+        System.out.println("the product of two numbers="+this.pro);
+    }
+
+}
+public class sum{
+    public static void main(String args[]){
+        this.complex this.obj=new complex();
+        obj.getdata(2,3);
+        obj.sum();
+        obj.difference();
+        obj.product();
+
+
+
+
+
+    }
+}
